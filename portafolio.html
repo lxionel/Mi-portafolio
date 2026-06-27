@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio — Studio Zero | Demos reales</title>
+<meta name="description" content="Demostraciones funcionales de los proyectos que entregamos: carta digital de restaurante, catálogo de tienda con pedidos y web de academia con inscripción. Pruébalas en vivo.">
+<link rel="icon" type="image/svg+xml" href="img/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+</head>
+<body>
+
+<div class="topline"></div>
+
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Studio Zero — inicio">
+      <img class="logo-mark" src="img/logo.svg" alt="">
+      <span class="logo-text">Studio<span>Zero</span></span>
+    </a>
+    <nav class="nav-menu" id="navMenu" aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="precios.html">Precios</a>
+      <a href="portafolio.html" class="active">Portafolio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-sm btn-primary wsp-link" data-msg="Hola Studio Zero, quiero cotizar un proyecto">Cotizar proyecto</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="pagehead">
+  <div class="container">
+    <p class="crumbs"><a href="index.html">Inicio</a> / Portafolio</p>
+    <h1>No son capturas: son sistemas reales.</h1>
+    <p>Conoce la arquitectura detrás de nuestros proyectos más destacados, desarrollados a medida con ingeniería de software.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top: 0; padding-bottom: 0;">
+  <div class="horizontal-scroll-container">
+    <div class="horizontal-track work-grid">
+
+      <article class="work-live h-item">
+        <div class="work-live-frame reveal-img">
+          <img src="img/peripollos-pos.jpg" alt="Sistema POS Peripollos en Java" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="work-live-body">
+          <span class="eyebrow">Desarrollo Backend · Sistema POS</span>
+          <h2>Sistema de Gestión "Peripollos"</h2>
+          <p>Desarrollo completo de un sistema de Punto de Venta (POS) programado en <strong>Java</strong> con conexión a base de datos <strong>SQL Server</strong>. Diseñado para optimizar la toma de pedidos, inserción de datos en tiempo real y comunicación automatizada mediante Webhooks y un Chatbot integrado.</p>
+          <ul class="checklist">
+            <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Arquitectura robusta en Java y consultas SQL optimizadas.</li>
+            <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Integración de Webhooks y lógica de Chatbot.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="work-live h-item">
+        <div class="work-live-frame reveal-img">
+          <img src="img/metabit-app.jpg" alt="Aplicación Móvil MetaBit" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="work-live-body">
+          <span class="eyebrow">Aplicación Móvil · Finanzas</span>
+          <h2>App "MetaBit"</h2>
+          <p>Desarrollo de una aplicación móvil enfocada en la automatización de metas de ahorro. El proyecto implicó desde el diseño de la interfaz (UI) y la identidad visual (logotipo), hasta la programación de la lógica interna y la compilación del APK funcional.</p>
+          <ul class="checklist">
+            <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Algoritmos de cálculo para proyección de ahorros.</li>
+            <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Desarrollo de interfaz de usuario intuitiva.</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="cta-aurora" aria-hidden="true"><span class="aurora-beam aurora-beam--1"></span><span class="aurora-beam aurora-beam--2"></span><span class="aurora-beam aurora-beam--3"></span></div>
+  <div class="container">
+    <h2>¿Imaginas tu negocio <em>así</em>?</h2>
+    <p>Cuéntanos qué necesitas y preparamos una demo o propuesta a tu medida.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-light btn-lg wsp-link" data-msg="Hola Studio Zero, vi el portafolio y quiero algo similar para mi negocio">Quiero algo así</a>
+      <a class="btn btn-outline-light btn-lg" href="precios.html">Ver precios</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">

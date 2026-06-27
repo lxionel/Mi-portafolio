@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicios — Studio Zero | Desarrollo de Software a Medida</title>
+<meta name="description" content="Desarrollo de sistemas POS, aplicaciones móviles, backend con bases de datos relacionales y plataformas web corporativas de alto rendimiento.">
+<link rel="icon" type="image/svg+xml" href="img/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+</head>
+<body>
+
+<div class="topline"></div>
+
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Studio Zero — inicio">
+      <img class="logo-mark" src="img/logo.svg" alt="">
+      <span class="logo-text">Studio<span>Zero</span></span>
+    </a>
+    <nav class="nav-menu" id="navMenu" aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html" class="active">Servicios</a>
+      <a href="precios.html">Precios</a>
+      <a href="portafolio.html">Portafolio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-sm btn-primary wsp-link" data-msg="Hola Studio Zero, quiero cotizar un proyecto de software">Cotizar proyecto</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="pagehead">
+  <div class="container">
+    <p class="crumbs"><a href="index.html">Inicio</a> / Servicios</p>
+    <h1>Sistemas y arquitecturas diseñadas para escalar.</h1>
+    <p>Desde aplicaciones móviles nativas hasta bases de datos relacionales y sistemas de gestión de ventas (POS). Conoce nuestras áreas de especialidad en ingeniería de software.</p>
+  </div>
+</section>
+
+<section class="section bg-soft">
+  <div class="container">
+
+    <article class="svc-detail">
+      <div class="svc-detail-body">
+        <span class="svc-num">Especialidad 01</span>
+        <h2>Sistemas Web y de Ventas (POS)</h2>
+        <p>Software a medida para automatizar tu negocio. Diseñamos sistemas de Punto de Venta y paneles administrativos que gestionan tu inventario, ventas y catálogos en tiempo real.</p>
+        <div class="svc-cols">
+          <div><h4>Incluye</h4><ul class="yes">
+            <li>Lógica de negocio en Java u otros lenguajes robustos</li>
+            <li>Conexión a base de datos (SQL Server / MySQL)</li>
+            <li>Panel de administración interactivo</li>
+            <li>Integración de Webhooks y chatbots</li>
+            <li>Seguridad contra inyecciones SQL</li>
+          </ul></div>
+          <div><h4>No incluye</h4><ul class="no">
+            <li>Hardware físico (computadoras, impresoras térmicas)</li>
+          </ul></div>
+        </div>
+        <div class="svc-meta">
+          <span class="tagx">Entrega <span>10-15 días</span></span>
+          <span class="tagx">Desde <span>S/ 850</span></span>
+          <a class="link-arrow" href="precios.html">Ver precios <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h12l-5-5 1.4-1.4L21 12l-7.6 6.4L12 17l5-5H5z"/></svg></a>
+        </div>
+      </div>
+      <div class="svc-detail-media reveal reveal-img">
+        <div class="img-frame"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=75&auto=format&fit=crop" alt="Sistema POS y Dashboard" loading="lazy" onerror="this.style.display='none'"></div>
+      </div>
+    </article>
+
+    <article class="svc-detail reverse">
+      <div class="svc-detail-body">
+        <span class="svc-num">Especialidad 02</span>
+        <h2>Aplicaciones Móviles</h2>
+        <p>Llevamos tu idea a la palma de la mano de tus usuarios. Desarrollamos apps móviles desde el diseño de la interfaz (UI) hasta la compilación del APK funcional y algoritmos internos.</p>
+        <div class="svc-cols">
+          <div><h4>Incluye</h4><ul class="yes">
+            <li>Diseño de experiencia de usuario (UX/UI)</li>
+            <li>Programación de algoritmos lógicos (ej. Finanzas, ahorro)</li>
+            <li>Conexión con base de datos en la nube (Firebase / SQL)</li>
+            <li>Entrega de código fuente y APK funcional</li>
+          </ul></div>
+          <div><h4>No incluye</h4><ul class="no">
+            <li>Pago de licencias de desarrollador en Play Store / App Store</li>
+          </ul></div>
+        </div>
+        <div class="svc-meta">
+          <span class="tagx">Cotización <span>A medida</span></span>
+          <span class="tagx">Desde <span>S/ 1500+</span></span>
+          <a class="link-arrow" href="precios.html">Ver precios <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h12l-5-5 1.4-1.4L21 12l-7.6 6.4L12 17l5-5H5z"/></svg></a>
+        </div>
+      </div>
+      <div class="svc-detail-media reveal reveal-img">
+        <div class="img-frame"><img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=75&auto=format&fit=crop" alt="Desarrollo de Aplicación Móvil" loading="lazy" onerror="this.style.display='none'"></div>
+      </div>
+    </article>
+
+    <article class="svc-detail">
+      <div class="svc-detail-body">
+        <span class="svc-num">Especialidad 03</span>
+        <h2>Desarrollo Backend y APIs</h2>
+        <p>El motor invisible pero fundamental de cualquier negocio digital. Construimos la lógica de servidor, autenticación segura y conexión con servicios de terceros como pasarelas de pago y entidades del estado (RENIEC/SUNAT).</p>
+        <div class="svc-cols">
+          <div><h4>Incluye</h4><ul class="yes">
+            <li>Desarrollo de APIs RESTful</li>
+            <li>Gestión y diseño de bases de datos relacionales</li>
+            <li>Implementación de tokens de seguridad (Bearer / JWT)</li>
+            <li>Integración con billeteras digitales (Yape, Plin)</li>
+          </ul></div>
+          <div><h4>No incluye</h4><ul class="no">
+            <li>Diseño visual (Frontend) complejo, si se contrata individualmente.</li>
+          </ul></div>
+        </div>
+        <div class="svc-meta">
+          <span class="tagx">Cotización <span>A medida</span></span>
+          <span class="tagx">Consultar <span>proyecto</span></span>
+          <a class="link-arrow wsp-link" data-msg="Hola Studio Zero, quiero cotizar la arquitectura de un Backend/API">Hablar con un ingeniero <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h12l-5-5 1.4-1.4L21 12l-7.6 6.4L12 17l5-5H5z"/></svg></a>
+        </div>
+      </div>
+      <div class="svc-detail-media reveal reveal-img">
+        <div class="img-frame"><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=75&auto=format&fit=crop" alt="Código y Backend" loading="lazy" onerror="this.style.display='none'"></div>
+      </div>
+    </article>
+
+    <article class="svc-detail reverse">
+      <div class="svc-detail-body">
+        <span class="svc-num">Especialidad 04</span>
+        <h2>Plataformas Web Corporativas</h2>
+        <p>La presencia oficial y blindada de tu empresa. Creada desde cero (sin constructores lentos) para garantizar máxima velocidad de carga, interactividad profesional y posicionamiento en Google.</p>
+        <div class="svc-cols">
+          <div><h4>Incluye</h4><ul class="yes">
+            <li>Diseño UI/UX corporativo propio</li>
+            <li>Formularios de contacto seguros</li>
+            <li>Animaciones fluidas y de alto nivel (GSAP)</li>
+            <li>Optimización técnica (SEO) y certificados SSL</li>
+          </ul></div>
+          <div><h4>No incluye</h4><ul class="no">
+            <li>Gestión de bases de datos complejas de inventario</li>
+            <li>Redacción de textos legales</li>
+          </ul></div>
+        </div>
+        <div class="svc-meta">
+          <span class="tagx">Entrega <span>5 días</span></span>
+          <span class="tagx">Desde <span>S/ 450</span></span>
+          <a class="link-arrow" href="precios.html">Ver precios <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h12l-5-5 1.4-1.4L21 12l-7.6 6.4L12 17l5-5H5z"/></svg></a>
+        </div>
+      </div>
+      <div class="svc-detail-media reveal reveal-img">
+        <div class="img-frame"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=75&auto=format&fit=crop" alt="Desarrollo Web Corporativo" loading="lazy" onerror="this.style.display='none'"></div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="section section--elevated">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Metodología de trabajo</span>
+      <h2 class="section-title">El ciclo de desarrollo de software.</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><h3>Análisis de Negocio</h3><p>Evaluamos el flujo de tu empresa, definimos la lógica de la base de datos y la arquitectura necesaria.</p></div>
+      <div class="step reveal d1"><h3>Diseño y Estructura</h3><p>Creamos el modelado de datos y el diseño de la interfaz visual (UI) para tu aprobación.</p></div>
+      <div class="step reveal d2"><h3>Desarrollo y Código</h3><p>Programamos el backend, integramos las APIs y blindamos la seguridad del sistema.</p></div>
+      <div class="step reveal d3"><h3>Despliegue (Deploy)</h3><p>Realizamos pruebas de rendimiento, subimos el sistema al servidor y te entregamos el control.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="cta-aurora" aria-hidden="true"><span class="aurora-beam aurora-beam--1"></span><span class="aurora-beam aurora-beam--2"></span><span class="aurora-beam aurora-beam--3"></span></div>
+  <div class="container">
+    <h2>¿Listo para digitalizar <em>tu empresa</em>?</h2>
+    <p>Cuéntanos el reto técnico que tienes y armaremos la arquitectura ideal para tu negocio.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-light btn-lg wsp-link" data-msg="Hola Studio Zero, quiero asesoría técnica sobre un desarrollo">Consultar con un desarrollador</a>
+      <a class="btn btn-outline-light btn-lg" href="portafolio.html">Ver casos de estudio</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-glow" aria-hidden="true"></div>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="logo" href="index.html"><img class="logo-mark" src="img/logo.svg" alt=""><span class="logo-text">Studio<span>Zero</span></span></a>
+      <p>Estudio de diseño y desarrollo de software para negocios de Chimbote, Nuevo Chimbote y todo el Perú.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Servicios</h4>
+      <a href="servicios.html">Sistemas de Gestión</a>
+      <a href="servicios.html">Aplicaciones Móviles</a>
+      <a href="servicios.html">Desarrollo Backend</a>
+      <a href="servicios.html">Páginas Web Premium</a>
+    </div>
+    <div class="footer-col">
+      <h4>Estudio</h4>
+      <a href="precios.html">Precios</a>
+      <a href="portafolio.html">Portafolio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <a href="tel:+51952102805">+51 952 102 805</a>
+      <a class="wsp-link" data-msg="Hola Studio Zero, quiero información">WhatsApp directo</a>
+      <a href="mailto:lioneldavora1@gmail.com">lioneldavora1@gmail.com</a>
+      <p>Chimbote · Nuevo Chimbote</p>
+    </div>
+  </div>
+  <div class="container footer-base">
+    <span>© 2026 Studio Zero. Todos los derechos reservados.</span>
+    <span>Diseño y desarrollo propio, sin plantillas.</span>
+  </div>
+</footer>
+
+<a class="float-wsp wsp-link" data-msg="Hola Studio Zero, vi sus servicios y quiero desarrollar un sistema" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 5 2.3 7L4 29l7.2-2.2c1.9 1 4 1.6 6.2 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-2 0-3.9-.6-5.5-1.6l-.4-.2-4.2 1.3 1.3-4.1-.3-.4C5.7 18.2 5.1 16.6 5.1 15 5.1 9 10 4.1 16 4.1S26.9 9 26.9 15 22 24.8 16 24.8zm6-7.4c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6-.1-.2-.7-1.8-1-2.4-.3-.6-.5-.5-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.2 1.3 3.4c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2 .1.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+</a>
+<button class="back-top" id="backTop" aria-label="Volver arriba"><svg viewBox="0 0 24 24"><path d="M12 8l6 6-1.4 1.4L12 10.8l-4.6 4.6L6 14z"/></svg></button>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

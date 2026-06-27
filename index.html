@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studio Zero — Diseño y desarrollo web para negocios | Chimbote</title>
+<meta name="description" content="Studio Zero diseña y desarrolla sitios web, cartas digitales y catálogos con pedidos por WhatsApp para negocios de Chimbote, Nuevo Chimbote y todo el Perú. Entrega en 5 días, precio fijo y garantía.">
+<meta property="og:title" content="Studio Zero — Diseño y desarrollo web para negocios">
+<meta property="og:description" content="Sitios web profesionales, cartas digitales y catálogos con pedidos por WhatsApp. Entrega en 5 días.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_PE">
+<link rel="icon" type="image/svg+xml" href="img/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Studio Zero","description":"Estudio de diseño y desarrollo web para negocios.","areaServed":["Chimbote","Nuevo Chimbote","Perú"],"telephone":"+51952102805","priceRange":"S/250 - S/700"}
+</script>
+</head>
+<body>
+<div class="topline"></div>
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Studio Zero — inicio">
+      <img class="logo-mark" src="img/logo.svg" alt="">
+      <span class="logo-text">Studio<span>Zero</span></span>
+    </a>
+    <nav class="nav-menu" id="navMenu" aria-label="Principal">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="precios.html">Precios</a>
+      <a href="portafolio.html">Portafolio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-sm btn-primary wsp-link" data-msg="Hola Studio Zero, quiero cotizar un proyecto">Cotizar proyecto</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-orb hero-orb--1" aria-hidden="true"></div>
+  <div class="hero-orb hero-orb--2" aria-hidden="true"></div>
+  <div class="hero-grid-pattern" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="hero-pill"><span class="dot pulse"></span> Desarrollo de Software y Web · Chimbote, Perú</span>
+        <h1 class="hero-title">
+          <span class="word" style="animation-delay:.05s">Sistemas</span>
+          <span class="word" style="animation-delay:.12s">y</span>
+          <span class="word" style="animation-delay:.19s">páginas</span>
+          <em><span class="word" style="animation-delay:.26s">que</span> <span class="word" style="animation-delay:.33s">escalan</span></em>
+          <span class="word" style="animation-delay:.40s">contigo.</span>
+        </h1>
+        <p class="hero-sub">Desarrollamos sitios web de alto rendimiento, aplicaciones móviles y sistemas de gestión (POS) a medida. Ingeniería de software aplicada para automatizar, acelerar y proteger tu negocio local.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary btn-lg wsp-link" data-msg="Hola Lionel, quiero cotizar el desarrollo de un sistema/web">Empezar un proyecto</a>
+          <a class="btn btn-ghost btn-lg" href="portafolio.html">Ver portafolio técnico</a>
+        </div>
+        <div class="hero-trust">
+          <span><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Código optimizado</span>
+          <span><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Arquitectura segura</span>
+          <span><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Bases de datos escalables</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal d1">
+        <div class="img-frame">
+          <!-- CAMBIA AQUÍ: reemplaza por una foto tuya programando o un fragmento de código -->
+          <img class="kenburns" src="img/hero-code.jpg" alt="Desarrollo de software y código" loading="eager" onerror="this.src='https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=75&auto=format&fit=crop';this.onerror=null">
+        </div>
+        <div class="hero-stat glass-card">
+          <b>100%</b>
+          <span>Código propio, sin plantillas genéricas</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== SERVICIOS ===== -->
+<section class="section bg-soft">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Lo que hacemos</span>
+      <h2 class="section-title">Soluciones digitales con un objetivo: que tu negocio <em>venda más</em>.</h2>
+      <p class="lead">Cada proyecto se construye a medida, optimizado para celular y pensado para convertir visitas en clientes.</p>
+    </div>
+    <div class="cards">
+      <article class="card glass-card reveal">
+        <div class="card-ico"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 2.5 15 0 18M12 3c-2.5 2.5-2.5 15 0 18"/></svg></div>
+        <h3>Sitios web</h3>
+        <p>Tu negocio completo en internet: información, servicios, galería y ubicación, con diseño propio y carga rápida.</p>
+        <a class="link-arrow" href="servicios.html">Ver detalle <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h12l-5-5 1.4-1.4L21 12l-7.6 6.4L12 17l5-5H5z"/></svg></a>
+      </article>
+      <article class="card glass-card reveal d1">
+        <div class="card-ico card-ico--cyan"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg></div>
+        <h3>Cartas y catálogos</h3>
+        <p>Carta digital con QR o catálogo de productos donde el cliente arma su pedido y te llega directo por WhatsApp.</p>
+        <a class="link-arrow" href="servicios.html">Ver detalle <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h12l-5-5 1.4-1.4L21 12l-7.6 6.4L12 17l5-5H5z"/></svg></a>
+      </article>
+      <article class="card glass-card reveal d2">
+        <div class="card-ico card-ico--pink"><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 9h16M8 3v4M16 3v4"/></svg></div>
+        <h3>Reservas y citas</h3>
+        <p>Sistema para que tus clientes agenden en línea y la solicitud llegue ordenada a tu WhatsApp, sin llamadas.</p>
+        <a class="link-arrow" href="servicios.html">Ver detalle <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h12l-5-5 1.4-1.4L21 12l-7.6 6.4L12 17l5-5H5z"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALERÍA DESLIZANTE ===== -->
+<section class="gallery bg-soft">
+  <div class="container gallery-head">
+    <span class="eyebrow">Para todo tipo de negocio</span>
+    <h2 class="section-title">Diseñamos para rubros <em>como el tuyo</em>.</h2>
+  </div>
+  <div class="marquee-row">
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Restaurantes</span></figure>
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Cafeterías</span></figure>
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Comercios</span></figure>
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Salones</span></figure>
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Gimnasios</span></figure>
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Salud</span></figure>
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Educación</span></figure>
+  </div>
+  <div class="marquee-row">
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Pastelerías</span></figure>
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Tiendas</span></figure>
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1487070183336-b863922373d4?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Florerías</span></figure>
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Fitness</span></figure>
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Bares</span></figure>
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Reposterías</span></figure>
+    <figure class="gimg"><img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=500&q=70&auto=format&fit=crop" alt="" loading="lazy" onerror="this.style.display='none'"><span>Boutiques</span></figure>
+  </div>
+</section>
+
+<!-- ===== POR QUÉ ===== -->
+<section class="section section--elevated">
+  <div class="container split">
+    <div class="split-media reveal reveal-img">
+      <div class="img-frame"><img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=75&auto=format&fit=crop" alt="Reunión de trabajo" loading="lazy" onerror="this.style.display='none'"></div>
+    </div>
+    <div class="split-body">
+      <span class="eyebrow">Por qué elegirnos</span>
+      <h2>Trato directo, trabajo a medida y <em>resultados claros</em>.</h2>
+      <p>No somos una fábrica de plantillas. Cada proyecto se diseña desde cero según tu marca y tu rubro, y hablas siempre con la persona que construye tu sitio.</p>
+      <ul class="checklist">
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Diseño exclusivo, adaptado a tu identidad y colores.</li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Optimizado para celular y para aparecer en Google.</li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> Precio fijo acordado por escrito, sin sorpresas.</li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg> La propiedad del sitio queda a tu nombre.</li>
+      </ul>
+      <div class="hero-ctas" style="margin-top:28px">
+        <a class="btn btn-primary" href="nosotros.html">Conocer el estudio</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="stats-section">
+  <div class="stats-aurora" aria-hidden="true"></div>
+  <div class="container stats">
+    <div class="stat reveal"><b><span data-count="5">0</span></b><span>días de entrega promedio</span></div>
+    <div class="stat reveal d1"><b><span data-count="100">0</span>%</b><span>adaptado a celular</span></div>
+    <div class="stat reveal d2"><b>50/50</b><span>forma de pago segura</span></div>
+    <div class="stat reveal d3"><b>24 h</b><span>tiempo de respuesta</span></div>
+  </div>
+</section>
+
+<!-- ===== PORTAFOLIO PREVIEW ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Portafolio</span>
+      <h2 class="section-title">Ejemplos reales que <em>puedes probar</em>.</h2>
+      <p class="lead">Demostraciones funcionales de los tipos de proyecto que entregamos. Ábrelas e interactúa con ellas.</p>
+    </div>
+    <div class="work-grid">
+      <a class="work glass-card reveal" href="portafolio.html">
+        <div class="work-media"><span class="work-cat">Restaurante</span><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=700&q=75&auto=format&fit=crop" alt="Demo de restaurante" loading="lazy" onerror="this.style.display='none'"></div>
+        <div class="work-body"><h3>Carta digital con QR</h3><p>Menú por categorías y pedido directo por WhatsApp.</p><span class="link-arrow">Ver en portafolio <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h12l-5-5 1.4-1.4L21 12l-7.6 6.4L12 17l5-5H5z"/></svg></span></div>
+      </a>
+      <a class="work glass-card reveal d1" href="portafolio.html">
+        <div class="work-media"><span class="work-cat">Comercio</span><img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=700&q=75&auto=format&fit=crop" alt="Demo de tienda" loading="lazy" onerror="this.style.display='none'"></div>
+        <div class="work-body"><h3>Catálogo con pedidos</h3><p>Vitrina en línea con carrito y cobro por Yape.</p><span class="link-arrow">Ver en portafolio <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h12l-5-5 1.4-1.4L21 12l-7.6 6.4L12 17l5-5H5z"/></svg></span></div>
+      </a>
+      <a class="work glass-card reveal d2" href="portafolio.html">
+        <div class="work-media"><span class="work-cat">Educación</span><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=700&q=75&auto=format&fit=crop" alt="Demo de academia" loading="lazy" onerror="this.style.display='none'"></div>
+        <div class="work-body"><h3>Web con inscripción</h3><p>Cursos, horarios y matrícula en línea.</p><span class="link-arrow">Ver en portafolio <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h12l-5-5 1.4-1.4L21 12l-7.6 6.4L12 17l5-5H5z"/></svg></span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-band">
+  <div class="cta-aurora" aria-hidden="true"><span class="aurora-beam aurora-beam--1"></span><span class="aurora-beam aurora-beam--2"></span><span class="aurora-beam aurora-beam--3"></span></div>
+  <div class="container">
+    <h2>¿Listo para que tu negocio <em>se vea profesional</em>?</h2>
+    <p>Conversemos sobre tu proyecto. Te respondemos el mismo día, sin compromiso.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary btn-lg wsp-link" data-msg="Hola Studio Zero, quiero conversar sobre un proyecto">Escribir por WhatsApp</a>
+      <a class="btn btn-outline-light btn-lg" href="tel:+51952102805">Llamar: 952 102 805</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-glow" aria-hidden="true"></div>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="logo" href="index.html"><img class="logo-mark" src="img/logo.svg" alt=""><span class="logo-text">Studio<span>Zero</span></span></a>
+      <p>Estudio de diseño y desarrollo web para negocios de Chimbote, Nuevo Chimbote y todo el Perú.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Servicios</h4>
+      <a href="servicios.html">Sitios web</a>
+      <a href="servicios.html">Cartas digitales</a>
+      <a href="servicios.html">Catálogos con pedidos</a>
+      <a href="servicios.html">Reservas y citas</a>
+    </div>
+    <div class="footer-col">
+      <h4>Estudio</h4>
+      <a href="precios.html">Precios</a>
+      <a href="portafolio.html">Portafolio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <a href="tel:+51952102805">+51 952 102 805</a>
+      <a class="wsp-link" data-msg="Hola Studio Zero, quiero información">WhatsApp directo</a>
+      <a href="mailto:lioneldavora1@gmail.com">lioneldavora1@gmail.com</a>
+      <!-- CAMBIA AQUÍ: tu Instagram -->
+      <a href="#" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+  <div class="container footer-base">
+    <span>© 2026 Studio Zero. Todos los derechos reservados.</span>
+    <span>Diseño y desarrollo propio, sin plantillas.</span>
+  </div>
+</footer>
+
+<a class="float-wsp wsp-link" data-msg="Hola Studio Zero, vi su web y quiero información" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 5 2.3 7L4 29l7.2-2.2c1.9 1 4 1.6 6.2 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-2 0-3.9-.6-5.5-1.6l-.4-.2-4.2 1.3 1.3-4.1-.3-.4C5.7 18.2 5.1 16.6 5.1 15 5.1 9 10 4.1 16 4.1S26.9 9 26.9 15 22 24.8 16 24.8zm6-7.4c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6-.1-.2-.7-1.8-1-2.4-.3-.6-.5-.5-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.2 1.3 3.4c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2 .1.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+</a>
+<button class="back-top" id="backTop" aria-label="Volver arriba"><svg viewBox="0 0 24 24"><path d="M12 8l6 6-1.4 1.4L12 10.8l-4.6 4.6L6 14z"/></svg></button>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
