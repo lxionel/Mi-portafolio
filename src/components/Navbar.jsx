@@ -12,6 +12,8 @@ const LINKS = [
   { to: '/contacto',   label: 'Contacto' },
 ];
 
+const publicAsset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+
 export default function Navbar({ theme, toggleTheme }) {
   const [scrolled,   setScrolled]   = useState(false);
   const [menuOpen,   setMenuOpen]   = useState(false);
@@ -62,7 +64,7 @@ export default function Navbar({ theme, toggleTheme }) {
     >
       <div className="container nav-inner">
         <Link className="logo" to="/" onClick={closeMenu} aria-label="Studio Zero">
-          <img className="logo-mark" src="/img/logo.svg" alt="" width="34" height="34"
+          <img className="logo-mark" src={publicAsset('/img/logo.svg')} alt="" width="34" height="34"
             onError={e => { e.target.style.display='none'; }} />
           <span className="logo-text">Studio<span>Zero</span></span>
         </Link>

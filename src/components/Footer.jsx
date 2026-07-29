@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { wspUrl } from '../utils/whatsapp';
 
+const publicAsset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -8,7 +10,7 @@ export default function Footer() {
       <div className="container footer-grid">
         <div className="footer-brand">
           <Link className="logo" to="/">
-            <img className="logo-mark" src="/img/logo.svg" alt="" />
+            <img className="logo-mark" src={publicAsset('/img/logo.svg')} alt="" />
             <span className="logo-text">Studio<span>Zero</span></span>
           </Link>
           <p>Estudio de diseño y desarrollo web para negocios de Chimbote, Nuevo Chimbote y todo el Perú.</p>

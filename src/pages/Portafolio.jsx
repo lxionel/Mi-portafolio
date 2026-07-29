@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import CtaBand from '../components/CtaBand';
 import { useGsap, setupPageAnimations } from '../hooks/useGsap';
 
+const publicAsset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+
 export default function Portafolio() {
   useEffect(() => {
     document.title = 'Portafolio — Studio Zero | Demos reales';
@@ -33,7 +35,7 @@ export default function Portafolio() {
             <article className="work-live">
               <div className="work-live-frame reveal-img">
                 <img
-                  src="/img/peripollos-pos.jpg"
+                  src={publicAsset('/img/peripollos-pos.jpg')}
                   alt="Sistema POS Peripollos en Java"
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
@@ -59,7 +61,7 @@ export default function Portafolio() {
             <article className="work-live">
               <div className="work-live-frame reveal-img">
                 <img
-                  src="/img/metabit-app.jpg"
+                  src={publicAsset('/img/metabit-app.jpg')}
                   alt="Aplicación Móvil MetaBit"
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   onError={(e) => { e.target.style.display = 'none'; }}
