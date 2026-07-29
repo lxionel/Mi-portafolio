@@ -43,6 +43,7 @@ export default function App() {
   const { theme, toggleTheme } = useTheme();
   const lenisRef   = useRef(null);
   const [ready, setReady] = useState(false);
+  const basename = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   /* Lenis smooth scroll */
   useEffect(() => {
@@ -61,7 +62,7 @@ export default function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename || undefined}>
       {!ready && <Preloader onComplete={() => setReady(true)} />}
       <AppInner theme={theme} toggleTheme={toggleTheme} />
     </BrowserRouter>

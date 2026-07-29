@@ -241,9 +241,6 @@ export default function Home() {
     return () => window.removeEventListener('mousemove', onMove);
   }, []);
 
-    return () => ctx.revert();
-  }, []);
-
   /* ─── SERVICE hover image ─── */
   useEffect(() => {
     const img = svcImgRef.current;
